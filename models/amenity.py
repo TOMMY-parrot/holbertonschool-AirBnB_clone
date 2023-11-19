@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 '''
-State class
+Amenity class
 '''
 from models.base_model import BaseModel
 
 
-class State(BaseModel):
+class Amenity(BaseModel):
     '''
-    State class inherits from BaseModel
+    Amenity class inherits from BaseModel
     '''
     name = ''
 
@@ -16,4 +16,3 @@ class State(BaseModel):
         init
         """
         super().__init__(*args, **kwargs)
-

@@ -1,21 +1,19 @@
 #!/usr/bin/python3
-"""
-inherits from BaseModel
-"""
+'''
+City class
+'''
 from models.base_model import BaseModel
 
 
-class Review(BaseModel):
-    """
-    class has public attributes
-    """
-    place_id = ""
-    user_id = ""
-    text = ""
+class City(BaseModel):
+    '''
+    City class inherits from BaseModel
+    '''
+    state_id = ''
+    name = ''
 
     def __init__(self, *args, **kwargs):
         """
         init
         """
         super().__init__(*args, **kwargs)
-
