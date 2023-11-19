@@ -31,7 +31,7 @@ class FileStorage:
 
     def save(self):
         '''
-        Deserializes the JSON file
+        Seserializes the JSON file
         '''
         my_dict = {}
         my_dict.update(FileStorage.__objects)
